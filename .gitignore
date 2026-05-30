@@ -1,0 +1,33 @@
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+.env
+
+# Python
+ai-service/venv/
+ai-service/__pycache__/
+*.pyc
+*.pyo
+
+# AI models
+*.dat
+*.pt
+*.pth
+*.h5
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,7 +1,34 @@
 # AttendAI
 
-AI-powered Smart Attendance Management System built using Laravel + Python Face Recognition.
+An AI-powered smart attendance management system that automates student attendance using facial recognition. Built with Laravel, Python, and MySQL, AttendAI is designed to simplify attendance management for educational institutions through secure authentication, real-time tracking, and AI-based face recognition.
+---
+## Project Status
 
+🚧 This project is currently under active development. Core attendance management, AI-based face recognition, and authentication modules have been implemented. Additional features, UI improvements, analytics, and deployment are planned in future updates.
+
+## Project Structure
+
+```
+AttendAI/
+├── app/                  # Laravel application
+├── ai-service/           # Python face recognition service
+├── database/             # Migrations and seeders
+├── public/               # Public assets
+├── resources/            # Blade templates, CSS and JavaScript
+├── routes/               # Application routes
+├── storage/              # Uploaded files and logs
+└── README.md
+```
+
+## Key Features
+
+- AI-powered face recognition for attendance
+- Student and faculty dashboards
+- Attendance tracking and reports
+- Secure authentication and authorization
+- Face registration system
+- Session management
+- Real-time attendance monitoring
 ---
 
 # GitHub Repository
@@ -10,43 +37,23 @@ Repository Link:
 
 https://github.com/Morardas-Joshi/AttendAI
 
----
+## Tech Stack
 
-# Features
+### Backend
+- Laravel
+- PHP
+- MySQL
 
-* AI Face Recognition Attendance
-* Student Dashboard
-* Faculty Dashboard
-* Attendance Tracking
-* Session Management
-* Face Registration System
-* Authentication & Authorization
-* Real-Time Attendance Monitoring
+### AI & Computer Vision
+- Python
+- OpenCV
+- face_recognition
+- dlib
 
----
-
-# Tech Stack
-
-## Backend
-
-* Laravel
-* PHP
-* MySQL
-
-## AI Service
-
-* Python
-* OpenCV
-* face_recognition
-* dlib
-
-## Frontend
-
-* Blade Templates
-* Tailwind CSS
-* Vite
-
----
+### Frontend
+- Blade Templates
+- Tailwind CSS
+- Vite
 
 # System Requirements
 
@@ -153,17 +160,19 @@ cd ai-service
 python -m venv venv
 ```
 
----
+### Activate Virtual Environment
 
-## 11. Activate Virtual Environment
-
-### Windows
+#### Windows
 
 ```bash
 .\venv\Scripts\activate
 ```
 
----
+#### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
 
 ## 12. Install Python Dependencies
 
